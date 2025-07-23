@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+chapters:
+- file: 01-narrative-content/index
+- file: 01-narrative-content/01_introduction
+- file: 01-narrative-content/02_terriamapinstance
+- file: 01-narrative-content/03_00_fair-ease_datasources
+  sections:
+  - file: 01-narrative-content/03_01S_thredds
+  - file: 01-narrative-content/03_02S_cog
+#  - file:
+
+#- file: notebooks
+#- file: markdown-notebooks

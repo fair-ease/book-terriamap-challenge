@@ -1,20 +1,33 @@
-# FAIR-EASE
+# FAIR-EASE Project -  FAIR-EASE Hackathon Terriamap Challenge
+
+
+```{image} content/logo_fair_ease.jpg
+:alt: logo_FAIR_EASE
+```
 
 Link to [FAIR-EASE website](https://fairease.eu)
 
-## Image from FAIR-EASE website
 
-```{image} https://fairease.eu/themes/fairease/images/waves.jpg
-:alt: Waves
-:width: 500px
+
+##  Brest March - 2025 FAIR-EASE Hackathon Terriamap Challenge
+
+```{image} ../content/Hackathon_excalidraw_red3.png
+:alt: Hackathon Terriamap challenge concept
+:class: bg-primary mb-1
 :align: center
 ```
 
-## Video from FAIR-EASE Youtube channel
 
-:::{iframe} https://www.youtube.com/embed/bV4rCjt_rOU
-:width: 100%
-FAIR-EASE nice video !
-:::
+### Learn more about FAIR-EASE
+
+```{image} ../content/logo_fair_ease.jpg
+:alt: logo_FAIR_EASE
+:class: bg-primary mb-1
+:width: 50px
+:align: left
+```
+[FAIR-EASE website](https://fairease.eu)
+
+
 
 

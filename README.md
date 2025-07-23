@@ -1,4 +1,4 @@
-# FAIRE-EASE Jupyterbook template
+# FAIR-EASE Terriamap Challenge Jupyterbook
 
 ## Install the project
 
