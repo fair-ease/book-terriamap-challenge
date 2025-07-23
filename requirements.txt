@@ -1,0 +1,6 @@
+# mandatory dependencies (DO NOT REMOVE)
+jupyter-book
+jupyter-book>=2.0.0a0
+ghp-import
+
+# project dependencies are under .binder/requirements.txt
