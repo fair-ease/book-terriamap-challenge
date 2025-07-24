@@ -13,15 +13,24 @@ available at
 
 Sulphur Dioxide is of interest as it is a typical volcanic gas emission.
 
-<img src="content/image3.png"
-style="width:5.74419in;height:3.23966in" 
-alt="Individual SO2 netcdf files on Thredds"/>
+
+```{figure} content/image3.png
+:height: 350px
+:name: figure-image3
+
+Individual SO2 netcdf files on Thredds
+```
 
 Clicking on an individual file hyperlink will provide the WMS
 getCapabilities URL information as well as other data interfaces.
 
-<img src="content/image4.png" style="width:4.25581in;height:3.86884in"
-alt="Thredds WMS getCapabilities URL" />
+
+```{figure} content/image4.png
+:height: 350px
+:name: figure-image4
+
+Thredds WMS getCapabilities URL
+```
 
 The WMS getCapabilities URL for the file can then be used in the
 Terriamap using the
@@ -71,8 +80,14 @@ Terriamap using the
 Allowing the SO2 dataset to be brought in as a “wms” type, layer to the
 TerriaMap viewer
 
-<img src="content/image5.png" style="width:5.43229in;height:3.7629in"
-alt="A screenshot of SO2 dataset in TerriaMap." />
+
+```{figure} content/image5.png
+:height: 350px
+:name: figure-image5
+
+A screenshot of SO2 dataset in TerriaMap.
+```
+
 
 ## Thredds and NCML file aggregation
 
@@ -139,8 +154,13 @@ so
 </dataset>
 ```
 
-<img src="content/image6.png" style="width:5.53488in;height:3.07426in"
-alt="NCML Aggregated SO2 dataset ." />
+```{figure} content/image6.png
+:height: 350px
+:name: figure-image6
+
+NCML Aggregated SO2 dataset
+```
+
 
 The Thredds WMS interface to the virtual aggregated file can be
 referenced in Terriamap as follows:
@@ -157,12 +177,21 @@ referenced in Terriamap as follows:
 ```
 This will appear in the Terriamap “Data Catalogue” as a single entry
 
-<img src="content/image7.png" style="width:4.59302in;height:3.5914in"
-alt="TerriaMap Data Catalogue Enrty " />
+
+```{figure} content/image7.png
+:height: 350px
+:name: figure-image7
+
+TerriaMap Data Catalogue Entry
+```
 
 After adding the Aggregate dataset to the map, the time series selection
 is available in the Terriamap interface.
 
-<img src="content/image8.png" style="width:6.24722in;height:4.54651in"
-alt="A screenshot of time aggregated dataset visualised in TerriaMap" />
 
+```{figure} content/image8.png
+:height: 350px
+:name: figure-image8
+
+A screenshot of time aggregated dataset visualised in TerriaMap
+```

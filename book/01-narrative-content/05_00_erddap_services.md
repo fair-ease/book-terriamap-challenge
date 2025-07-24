@@ -55,8 +55,15 @@ e.g.
 can be URL or percent encoded as follows:
 [<u>https://erddap.ifremer.fr/erddap/griddap/SDC_BAL_CLIM_TS_V1_m.csv?ITS_90_water_temperature%5B(2009-12-16T00:00:00Z):1:(2009-12-16T00:00:00Z)%5D%5B(0.0):1:(300.0)%5D%5B(53.0):1:(66.0)%5D%5B(9.0):1:(31.0)%5D</u>](https://erddap.ifremer.fr/erddap/griddap/SDC_BAL_CLIM_TS_V1_m.csv?ITS_90_water_temperature%5B(2009-12-16T00:00:00Z):1:(2009-12-16T00:00:00Z)%5D%5B(0.0):1:(300.0)%5D%5B(53.0):1:(66.0)%5D%5B(9.0):1:(31.0)%5D)
 
-<img src="content/image18.png" style="width:6.26772in;height:3.16667in"
-alt="GRIDDAP data form ERDDAP.">
+
+```{figure} content/image18.png
+:height: 350px
+:name: figure-image18
+
+GRIDDAP data from ERDDAP dynamic request
+```
+
+
 
 With TableDAP, there were some successes with datasets by percent
 encoding the ‘=’ signs from the ERDDAP encoded url:
@@ -107,5 +114,11 @@ Snippet:
 ```
 Result:
 
-<img src="content/image19.png" style="width:6.26772in;height:3.52778in"
-alt="Argo Profile chart called from ERDDAP">
+
+```{figure} content/image19.png
+:height: 350px
+:name: figure-image19
+
+Argo Profile chart called from ERDDAP
+```
+

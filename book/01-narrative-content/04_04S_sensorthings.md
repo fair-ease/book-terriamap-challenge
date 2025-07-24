@@ -46,8 +46,13 @@ y-column='result'></chart></td></tr></tbody></table><p>Sample data only</p>",
 }
 
 ```
-<img src="content/image17.png" style="width:6.26772in;height:3.52778in"
-alt="BGS Frost Server features">
+
+```{figure} content/image17.png
+:height: 350px
+:name: figure-image17
+
+BGS Frost Server features
+```
 
 Another approach tested to try to resolve the Time issue with only one
 feature:
@@ -99,6 +104,11 @@ service.
 "styles":[{"id":"@iot.id","color":{"colorPalette":"Reds","legendTicks":4},"pointSize":{"nullSize":1,"sizeFactor":5,"sizeOffset":1},"time":{"idColumns":["@iot.id"]},"hidden":false}]
 }
 ```
-<img src="content/Belgica_2023_geojson_uca.png" style="width:7.26772in;height:4.52778in"
-alt="RV Belgica Frost Server geojson features">
+
+```{figure} content/Belgica_2023_geojson_uca.png
+:height: 350px
+:name: figure-imageBelgica
+
+RV Belgica Frost Server geojson features
+```
 

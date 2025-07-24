@@ -81,15 +81,21 @@ predefined “catalog groups” and individual services “catalog items”.
 The “Upload Data” button can be used to initially test some local data
 on the users systmen or remote data sources and supported file formats.
 
-```{image} content/image1.png
-:alt: screenshot add local file
-:align: center
+```{figure} content/image1.png
+:height: 300px
+:name: figure-upload1
+
+screenshot add local file
 ```
 
 It is also possible to add and explore some remote standard Web APIs and
 OGC Services via the Upload button.
 
-```{image} ../content/image2.png
-:alt: screenshot add web data 
-:align: center
+
+```{figure} content/image2.png
+:height: 300px
+:name: figure-upload2
+
+screenshot add web data 
 ```
+

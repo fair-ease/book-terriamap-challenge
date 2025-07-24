@@ -15,8 +15,12 @@ specific location
 to browse to the metadata for the dataset/sample in the European
 Nucleotide Database.
 
-<img src="content/image22.png"
-style="width:3.60089in;height:4.78646in" />
+```{figure} content/image22.png
+:height: 350px
+:name: figure-image22
+
+UNINA CSV file
+```
 
 The “library_id” field can be used in a “featureInfoTemplate” using
 mustache templating in to replace the id in the popup url with the
@@ -60,8 +64,12 @@ Style","color":{"nullColor":"rgba(229,220,220,1)"},"hidden":false}],
 Clicking the URL in the popup dialog box will open a browser tab to the
 relevant record(s) in the ENA Archive.
 
-<img src="content/image23.png"
-style="width:6.35938in;height:3.80432in">
+```{figure} content/image23.png
+:height: 350px
+:name: figure-image23
+
+Feature Information with dynamic ENA link
+```
 
 ### OMICs KML Example performance issues
 
@@ -90,8 +98,13 @@ We also used the opportunity of the conversion process to rename the
 “Name” field to “survey_year” This “HungaTonga_metadata_year.geojson”
 file loads without causing any rendering performance issues.
 
-<img src="content/image24.png" style="width:4.33333in;height:3.19013in"
-alt="A screenshot of a computer AI-generated content may be incorrect.">
+```{figure} content/image24.png
+:height: 350px
+:name: figure-image24
+
+UNINA geojson file
+```
+
 
 ### Aggregating Taxonomy and Diversity data with SAMBA Omics data as CSV
 
@@ -113,7 +126,13 @@ in map viewers like TerriaMap more easily achieved.
 
 SAMBA metadata rendered in Terriamap:
 
-<img src="content/image25.png" style="width:7.26772in;height:4.125in">
+```{figure} content/image25.png
+:height: 350px
+:name: figure-image25
+
+Ifremer SAMBA metadata and styling
+```
+
 
 changed json template
 

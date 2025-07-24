@@ -13,8 +13,13 @@ Using Sextant WMTS service.
 ```
 WMTS used: “Brest 1929” (Old Aerial Imagery of Brest, taken in 1929)
 
-<img src="content/image14.png" style="width:6.26772in;height:3in" />
 
+```{figure} content/image14.png
+:height: 350px
+:name: figure-image14
+
+ifremer Sextant WMS Server - Brest (1929) Aerial images
+```
 
 An Examind WMTS layer was also tested
 
@@ -23,10 +28,15 @@ An Examind WMTS layer was also tested
 Unfortunately while the GetCapabilities was read correctly by TerriaMap,
 no data was displayed, we didn't have time to investigate further.
 
-<img src="content/image15.png"
-style="width:3.11979in;height:1.64619in" />
-```json
 
+```{figure} content/image15.png
+:height: 350px
+:name: figure-image15
+
+examind wmts getcapabilities
+```
+
+```json
 {
 "name": "WMTS Examind",
 "id": "wmts_examind",
