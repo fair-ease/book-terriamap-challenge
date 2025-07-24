@@ -4,9 +4,9 @@
 
 The main aim of the TerriaMap Hackathon challenge was to explore how
 diverse environmental datasets (e.g. Argo, ERDDAP, omics data) could be
-visualized and interacted with in the TerriaMap web application,
-allowing for cross disciplinary integration of data services from the
-FAIR-EASE use cases and infrastructure.
+configured, visualized and interacted with in the TerriaMap web
+application, allowing for cross disciplinary integration of data
+services from the FAIR-EASE use cases and infrastructure.
 
 ### What is TerriaMap?
 
@@ -26,7 +26,7 @@ configure Terriamap to point at local or remote datasets, files or web
 services. Terriamap has support for Open Geospatial Consortium (OGC) web
 services, various file formats and Web APIs and also some catalogue data
 sources like OGC CSW and CKAN. A Terriamap Instance is configured
-through creating “Catalogue Groups” and “Catalogue items” in the init
+through creating “Catalog Groups” and “Catalog items” in the init
 json file (e.g. the “simple.json” example). A catalogue item can be any
 number of different spatial data sources, for example a data layer
 created from a CSV file with latitude, longitude and parameter fields,
@@ -37,7 +37,7 @@ e.g. OGC getCapabilities URLs or a Catalogue Service.
 
 The Terriamap documentation ( <https://docs.terria.io/guide/> ) provides
 example json configuration snippets for various data source types as
-example “Catalogue Group” and “Catalogue Items”. These can be copied and
+example “Catalog Group” and “Catalog Items”. These can be copied and
 customised depending on what data and services the user wishes to
 display in their terriamap application instance.
 

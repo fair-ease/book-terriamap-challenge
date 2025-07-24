@@ -3,6 +3,9 @@
 
 ```{image} content/logo_fair_ease.jpg
 :alt: logo_FAIR_EASE
+:class: bg-primary mb-1
+:width: 50px
+:align: left
 ```
 
 Link to [FAIR-EASE website](https://fairease.eu)

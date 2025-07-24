@@ -9,9 +9,26 @@ chapters:
 - file: 01-narrative-content/02_terriamapinstance
 - file: 01-narrative-content/03_00_fair-ease_datasources
   sections:
+  - file: 01-narrative-content/03_00S_examind
   - file: 01-narrative-content/03_01S_thredds
   - file: 01-narrative-content/03_02S_cog
-#  - file:
+- file: 01-narrative-content/04_00_OGC_services
+  sections:
+  - file: 01-narrative-content/04_00S_wms
+  - file: 01-narrative-content/04_01S_wmts
+  - file: 01-narrative-content/04_02S_wfs
+  - file: 01-narrative-content/04_03S_wps
+  - file: 01-narrative-content/04_04S_csw
+  - file: 01-narrative-content/04_04S_sensorthings
+- file: 01-narrative-content/05_00_erddap_services
+- file: 01-narrative-content/06_00_cog
+- file: 01-narrative-content/07_00_omics
+- file: 01-narrative-content/08_00_iddas
+- file: 01-narrative-content/09_00_rocrates
+- file: 01-narrative-content/10_00_conclusion
+- file: 01-narrative-content/11_00_appendix1
+
+#  - file:01-narrative-content
 
 #- file: notebooks
 #- file: markdown-notebooks

@@ -13,14 +13,15 @@ available at
 
 Sulphur Dioxide is of interest as it is a typical volcanic gas emission.
 
-<img src="./content/image3.png"
-style="width:5.74419in;height:3.23966in" />
+<img src="content/image3.png"
+style="width:5.74419in;height:3.23966in" 
+alt="Individual SO2 netcdf files on Thredds"/>
 
 Clicking on an individual file hyperlink will provide the WMS
 getCapabilities URL information as well as other data interfaces.
 
-<img src="./content/image4.png" style="width:4.25581in;height:3.86884in"
-alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="content/image4.png" style="width:4.25581in;height:3.86884in"
+alt="Thredds WMS getCapabilities URL" />
 
 The WMS getCapabilities URL for the file can then be used in the
 Terriamap using the
@@ -37,47 +38,47 @@ Terriamap using the
     "type": "group",
     "name": "Daily Sulphur Dioxide - Near Real Time",
     "isOpen": **true**,
-"members": [
-  {
+    "members": [
+      {
+       "type": "wms",
+    "name": "Daily Sulphur Dioxide - Near Real Time 2022-01-14",
+    "url": "https://thredds.icare.univ-lille.fr/thredds/wms/S5P_SO2_NRTI_D3/2022/S5P_SO2_NRTI_D3_2022-01-14_3600x1800_V1-01.nc?service=WMS&version=1.3.0&request=GetCapabilities",
+    "layers": "sulfurdioxide_total_vertical_column",
+    "colorScaleMinimum": 0.0005,
+   "colorScaleMaximum": 0.01
+    },
+    {
     "type": "wms",
-"name": "Daily Sulphur Dioxide - Near Real Time 2022-01-14",
-"url": "https://thredds.icare.univ-lille.fr/thredds/wms/S5P_SO2_NRTI_D3/2022/S5P_SO2_NRTI_D3_2022-01-14_3600x1800_V1-01.nc?service=WMS&version=1.3.0&request=GetCapabilities",
-"layers": "sulfurdioxide_total_vertical_column",
-"colorScaleMinimum": 0.0005,
-"colorScaleMaximum": 0.01
-},
-{
-"type": "wms",
-"name": "Daily Sulphur Dioxide - Near Real Time 2022-01-15",
-"url":"https://thredds.icare.univ-lille.fr/thredds/wms/S5P_SO2_NRTI_D3/2022/S5P_SO2_NRTI_D3_2022-01-15_3600x1800_V1-01.nc?service=WMS&version=1.3.0&request=GetCapabilities",
-"layers": "sulfurdioxide_total_vertical_column",
-"colorScaleMinimum": 0.0005,
-"colorScaleMaximum": 0.01
-},
-{
-"type": "wms",
-"name": "Daily Sulphur Dioxide - Near Real Time - NCML time Aggregate",
-"url":"https://thredds.eoscfe.mesocentre.uca.fr/thredds/wms/S5P_SO2_NRTI_D3_2022/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-"layers": "sulfurdioxide_total_vertical_column",
-"colorScaleMinimum": 0.0005,
-"colorScaleMaximum": 0.1
-}
-]
-}
-]
-}
+    "name": "Daily Sulphur Dioxide - Near Real Time 2022-01-15",
+    "url":"https://thredds.icare.univ-lille.fr/thredds/wms/S5P_SO2_NRTI_D3/2022/S5P_SO2_NRTI_D3_2022-01-15_3600x1800_V1-01.nc?service=WMS&version=1.3.0&request=GetCapabilities",
+    "layers": "sulfurdioxide_total_vertical_column",
+    "colorScaleMinimum": 0.0005,
+    "colorScaleMaximum": 0.01
+    },
+    {
+    "type": "wms",
+    "name": "Daily Sulphur Dioxide - Near Real Time - NCML time Aggregate",
+    "url":"https://thredds.eoscfe.mesocentre.uca.fr/thredds/wms/S5P_SO2_NRTI_D3_2022/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+    "layers": "sulfurdioxide_total_vertical_column",
+    "colorScaleMinimum": 0.0005,
+    "colorScaleMaximum": 0.1
+    }
+    ]
+   }
+  ]
+  }
 ```
 Allowing the SO2 dataset to be brought in as a “wms” type, layer to the
-Terriamap viewer
+TerriaMap viewer
 
-<img src="./content/image5.png" style="width:5.43229in;height:3.7629in"
-alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="content/image5.png" style="width:5.43229in;height:3.7629in"
+alt="A screenshot of SO2 dataset in TerriaMap." />
 
 ## Thredds and NCML file aggregation
 
 The university of Lille’s thredds datasets are typically all individual
 files, visualising or adding each of these files individually to
-Terriamap would create a cluttered interface, however it is possible to
+TerriaMap would create a cluttered interface, however it is possible to
 aggregate multiple individual netcdf into one “virtual” netcdf file
 using NCML in a thredds dataset definition, this provides a way to point
 thredds at a directory of files and tell it which filename pattern to
@@ -129,16 +130,17 @@ On the thredds server on the UCA infrastructure, the following file
 ``` 
 This file is then referenced in the root thredds “catalog.xml” file like
 so
-
+```xml
 <dataset name="Sentinel_5P"\>
  <dataset name="S5P_SO2_NRTI_D3_2022_Aggregate"\>
  <catalogRef xlink:href='s5p_so2_nrti_aggregation.xml'
- xlink:title='AGGREGATE' name=''/\>
+ xlink:title='AGGREGATE' name=''\>
 </dataset>
 </dataset>
+```
 
-<img src="../content/image6.png" style="width:5.53488in;height:3.07426in"
-alt="A screenshot of a computer AI-generated content may be incorrect." />
+<img src="content/image6.png" style="width:5.53488in;height:3.07426in"
+alt="NCML Aggregated SO2 dataset ." />
 
 The Thredds WMS interface to the virtual aggregated file can be
 referenced in Terriamap as follows:
@@ -156,11 +158,11 @@ referenced in Terriamap as follows:
 This will appear in the Terriamap “Data Catalogue” as a single entry
 
 <img src="content/image7.png" style="width:4.59302in;height:3.5914in"
-alt="A screenshot of a computer AI-generated content may be incorrect." />
+alt="TerriaMap Data Catalogue Enrty " />
 
 After adding the Aggregate dataset to the map, the time series selection
-is available in the Terriamap interface
+is available in the Terriamap interface.
 
 <img src="content/image8.png" style="width:6.24722in;height:4.54651in"
-alt="A screenshot of aggregated dataset in thredds" />
+alt="A screenshot of time aggregated dataset visualised in TerriaMap" />
 
