@@ -1,5 +1,5 @@
 
-## OGC SensorThings API datasets
+# OGC SensorThings API datasets
 
 ### Investigating Sensor Things integration
 

@@ -1,5 +1,5 @@
 
-## Appendix 1 - Hackathon Daily Activity reports 
+# Appendix 1 - Hackathon Daily Activity reports 
 
 <u>TERRIA MAP CHALLENGE STATUS DAY 1</u>
 

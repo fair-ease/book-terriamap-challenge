@@ -1,5 +1,5 @@
 
-### WMTS
+# WMTS
 
 Using Sextant WMTS service.
 ```json

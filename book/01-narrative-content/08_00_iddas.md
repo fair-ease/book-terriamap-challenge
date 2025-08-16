@@ -1,5 +1,5 @@
 
-## IDDAS Catalogue Integration – SPARQL endpoint querying 
+# IDDAS Catalogue Integration – SPARQL endpoint querying 
 
 VLIZ looked at approaches to interacting with the IDDAS catalogue, while
 Terriamap supports interacting with OGC CSW and CKAN data catalogues, at

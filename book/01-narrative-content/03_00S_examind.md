@@ -1,5 +1,5 @@
 
-### Examind
+# Examind
 
 The Open Source Examind Community Edition (
 <https://www.examind.com/en/examind-community/> ) was used in the

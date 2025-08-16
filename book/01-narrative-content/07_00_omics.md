@@ -1,4 +1,4 @@
-## Omics Data 
+# Omics Data 
 
 ### Sample CSV File with Omic’s reference id and Coordinates
 

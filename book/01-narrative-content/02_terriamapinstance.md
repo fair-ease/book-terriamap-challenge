@@ -1,4 +1,4 @@
-## Creating a Terriamap Instance
+# Creating a Terriamap Instance
 
 ### TerriaMap Documented approach
 

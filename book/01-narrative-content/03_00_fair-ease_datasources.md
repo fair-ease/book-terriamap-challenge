@@ -1,5 +1,5 @@
 
-## FAIR-EASE Data services and Data Sources used in the Hackathon
+# FAIR-EASE Data services and Data Sources used in the Hackathon
 
 The FAIR-EASE Hackathon was themed around the Hunga Tonga Volcanic
 eruption. As part of the TerriaMap Challenge the various datasets

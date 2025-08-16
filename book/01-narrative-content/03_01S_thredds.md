@@ -1,5 +1,5 @@
 
-## Thredds Data set Examples
+# Thredds Data set Examples
 
 The University of Lille Sentinel 5 Sulphur dioxide (SO2) data is
 accessible on their Thredds server at

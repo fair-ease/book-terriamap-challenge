@@ -1,6 +1,6 @@
 
 
-## ERDDAP Data services:
+# ERDDAP Data services:
 
 While Terriamap can use ERDDAP WMS services and various file formats
 exported from ERDDAP, dynamically requesting and using CSV or Geojson

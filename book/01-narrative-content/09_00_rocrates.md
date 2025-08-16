@@ -1,4 +1,4 @@
-## Location-tagged RO-Crates
+# Location-tagged RO-Crates
 
 During the Hackathon a brief investigation was conducted into how
 RO-Crate geospatial metadata could be imported into TerriaMap. Some of

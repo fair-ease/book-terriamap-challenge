@@ -1,5 +1,5 @@
 
-## TerriaMap Hackathon Conclusions
+# TerriaMap Hackathon Conclusions
 
 The Hackathon demonstrated that TerriaMap is a very interesting and
 visually appealing web application that provides a means for researchers
